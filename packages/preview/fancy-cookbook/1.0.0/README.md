@@ -1,6 +1,6 @@
 # Fancy Cookbook
 
-Inspired by the excellent [Chef-cookbook by PaulMue0](https://github.com/Paulmue0/chef-cookbook/tree/main) but with a lot of differences.
+Inspired by the excellent [chef-cookbook](https://typst.app/universe/package/chef-cookbook) by PaulMue0 with some significant differences.
 
 So this is a template to write some recipes in a coherent cookbook with beautiful colors, appendices, indexes, and other stuffs in your language.
 
@@ -502,6 +502,15 @@ To add more space to a section with text, for explanations for example, I have m
     A lot of things to say with *bold text* and whatever you want.
 ]
 ```
+
+## set-theme
+You can change the colors anywhere in your document by using this command :
+
+```typ
+#set-theme(themes.green)
+```
+
+or another one or your custom theme. I used it for each chapter of my book (Starter, Main, Dessert, ...) with different colors.
 
 
 
